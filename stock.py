@@ -152,7 +152,7 @@ tab3 = Panel(child=kel_tab, title="Nama Kelompok")
 
 layout = Tabs(tabs=[tab3, tab1, tab2])
 
-show(layout) # akan otomatis membuka Browser (dir)
+# show(layout) # akan otomatis membuka Browser (dir)
 
 curdoc().add_root(layout)
 curdoc().title = "Stock Interactive Visualization using Bokeh"
