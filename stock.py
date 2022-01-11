@@ -154,5 +154,5 @@ layout = Tabs(tabs=[tab3, tab1, tab2])
 
 show(layout) # akan otomatis membuka Browser (dir)
 
-# curdoc().add_root(layout)
-# curdoc().title = "Stock Interactive Visualization using Bokeh"
+curdoc().add_root(layout)
+curdoc().title = "Stock Interactive Visualization using Bokeh"
