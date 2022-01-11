@@ -26,7 +26,7 @@ def datetime(x):
     return np.array(x, dtype=np.datetime64)
 
 # GET ALL STOCK DATA
-p_all = figure(width=1800, height=500, x_axis_type="datetime")
+p_all = figure(width=1100, height=500, x_axis_type="datetime")
 p_all.title.text = 'Click on legend entries to hide the corresponding lines'
 
 for data, name, color in zip([AAPL, IBM, MSFT, GOOG], ["AAPL", "IBM", "MSFT", "GOOG"], Spectral4):
