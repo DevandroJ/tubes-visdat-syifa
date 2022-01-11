@@ -14,7 +14,11 @@ from bokeh.sampledata.stocks import AAPL, GOOG, IBM, MSFT
 from datetime import date
 import pandas as pd
 from bokeh.palettes import Spectral4
+import bokeh.sampledata
+
 import os
+
+bokeh.sampledata.download()
 
 # Helper untuk formatting data date & time
 def datetime(x):
