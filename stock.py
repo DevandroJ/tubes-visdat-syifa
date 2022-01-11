@@ -9,16 +9,17 @@ from bokeh.models import ColumnDataSource, Select, Div, Title, WidgetBox, Panel,
 from bokeh.models.widgets import Button
 
 from bokeh.plotting import figure
+
+import bokeh.sampledata
+bokeh.sampledata.download()
 from bokeh.sampledata.stocks import AAPL, GOOG, IBM, MSFT
+
 # from test import datetime
 from datetime import date
 import pandas as pd
 from bokeh.palettes import Spectral4
-import bokeh.sampledata
 
 import os
-
-bokeh.sampledata.download()
 
 # Helper untuk formatting data date & time
 def datetime(x):
